@@ -67,5 +67,5 @@ order by count(registro.estvoc) desc;
 --4.
 select count(paciente.cpfpac), paciente.idapac from paciente 
 inner join registro on registro.idusu = paciente.idusu and registro.estvoc = 1 -- se for igual a 1 é positivo
-where registro.regdat between '2020-07-01' and '2020-20-30'
+where registro.regdat between '2020-07-01' and '2020-02-03'
 group by paciente.idapac order by count(paciente.cpfpac) desc;
