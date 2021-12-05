@@ -1,3 +1,3 @@
 # Pandemic
-Repositório para o trabalho de BD
+Repositório para o trabalho de BD 2
 rep bd
